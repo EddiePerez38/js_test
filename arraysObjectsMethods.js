@@ -45,6 +45,6 @@ var bills = [124, 48, 268];
 var tips = [tipCalculator(bills[0]), 
             tipCalculator(bills[1]), 
             tipCalculator(bills[2])];
-var findValues = [bills[0] + tips[0], bills[1] + tips[1], bills[0] + tips[0]]
+var finalValues = [bills[0] + tips[0], bills[1] + tips[1], bills[0] + tips[0]]
 
-console.log(tips);
+console.log(tips, finalValues);
