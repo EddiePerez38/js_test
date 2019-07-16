@@ -1,30 +1,30 @@
 /*
 Arrays
 */
-//  var names = ['John', 'Mark', 'Jane'];
-//  var years = new Array(1990, 1969, 1948);
+ var names = ['John', 'Mark', 'Jane'];
+ var years = new Array(1990, 1969, 1948);
 
-//  console.log(names[0]);
-//  console.log(names.length);
+ console.log(names[0]);
+ console.log(names.length);
 
-//  names[1] = 'Ben';
-//  names[5] = 'Mary';
+ names[1] = 'Ben';
+ names[5] = 'Mary';
 
-//  console.log(names);
+ console.log(names);
 
-//   //Different Data Types
-//   var john = ['John', 'Smith', 1990, 'teacher', 'false'];
+  //Different Data Types
+  var john = ['John', 'Smith', 1990, 'teacher', 'false'];
 
-//   john.push('blue');
-//   john.unshift('Mr.')
-//   console.log(john);
+  john.push('blue');
+  john.unshift('Mr.')
+  console.log(john);
 
-//   john.pop()
-//   john.pop()
-//   john.shift()
-//   console.log(john);
+  john.pop()
+  john.pop()
+  john.shift()
+  console.log(john);
 
-//   console.log(john.indexOf(1990));
+  console.log(john.indexOf(1990));
 
 
 function tipCalculator(bill) {
